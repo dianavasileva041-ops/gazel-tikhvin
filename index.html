@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Грузоперевозки Тихвин — ГАЗель NEXT 6 м, грузчики, переезды по Тихвину и СПб</title>
+<meta name="description" content="ГАЗель NEXT с кузовом 6 м в Тихвине: квартирные переезды, перевозка мебели, грузчики, стройматериалы, межгород до СПб и по Ленобласти. Ежедневно 8:00–22:00. Тел. 8 952 206-44-25.">
+<meta name="keywords" content="газель Тихвин, грузоперевозки Тихвин, грузчики Тихвин, переезд Тихвин, Тихвин СПб грузоперевозки">
+<meta property="og:title" content="Грузоперевозки Тихвин — ГАЗель NEXT 6 м">
+<meta property="og:description" content="Переезды, мебель, стройматериалы, грузчики. Тихвин, СПб, Ленобласть. Ежедневно 8:00–22:00.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231E4D8F'/%3E%3Cpath d='M6 10h13v10H6zM19 13h5l3 4v3h-8z' fill='%23fff'/%3E%3Ccircle cx='11' cy='21' r='2.2' fill='%23F97316'/%3E%3Ccircle cx='23' cy='21' r='2.2' fill='%23F97316'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Unbounded:wght@600;700&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MovingCompany","name":"Грузоперевозки Тихвин","telephone":"+79522064425","areaServed":["Тихвин","Санкт-Петербург","Ленинградская область"],"openingHours":"Mo-Su 08:00-22:00","priceRange":"от 900 ₽/час"}
+</script>
+<style>
+:root{
+  --bg:#F8FAFC; --card:#FFFFFF; --ink:#0F1B2D; --muted:#5B6B80; --line:#DCE3EC; --soft:#EEF2F7;
+  --navy:#0F2747; --navy-ink:#F2F6FB; --primary:#1E4D8F; --accent:#F97316; --accent-ink:#1A0F00; --ok:#15803D; --err:#B91C1C;
+  --f-body:"Golos Text",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-head:"Unbounded","Golos Text",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--f-body);-webkit-text-size-adjust:100%}
+a{color:inherit}
+h1,h2,h3{margin:0;text-wrap:balance}
+h1,h2{font-family:var(--f-head);font-weight:700;line-height:1.15}
+p{margin:0}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section{scroll-margin-top:72px}
+.sec{padding-block:64px}
+.sec.alt{background:var(--soft)}
+.sec h2{font-size:clamp(22px,3.2vw,32px)}
+.sec .sub{margin-top:8px;max-width:60ch;color:var(--muted)}
+.sec .body{margin-top:32px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:0 22px;border:0;border-radius:12px;font:600 16px/1 var(--f-body);text-decoration:none;cursor:pointer;transition:transform .25s ease,filter .25s ease}
+.btn:hover{transform:scale(1.03);filter:brightness(1.07)}
+.btn svg{width:20px;height:20px;flex:none}
+.b-call{background:var(--accent);color:var(--accent-ink);box-shadow:0 8px 22px rgba(249,115,22,.28)}
+.b-wa{background:var(--ok);color:#fff}
+.b-tg{background:var(--primary);color:#fff}
+.b-ghost{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+
+/* шапка */
+header{position:sticky;top:0;z-index:30;background:rgba(248,250,252,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:10px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font:700 15px/1.2 var(--f-head)}
+.logo i{display:grid;place-items:center;width:38px;height:38px;border-radius:9px;background:var(--primary);color:#fff;font-style:normal}
+.logo svg{width:20px;height:20px}
+nav{display:flex;gap:22px}
+nav a{text-decoration:none;font-size:15px;font-weight:500;color:var(--muted)}
+nav a:hover{color:var(--ink)}
+.hphone{display:flex;align-items:center;gap:8px;font-weight:600;color:var(--primary);text-decoration:none;white-space:nowrap}
+.hphone svg{width:18px;height:18px}
+
+/* главный экран */
+.hero{background:var(--navy);color:var(--navy-ink)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:40px;padding-block:80px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:8px;margin-bottom:18px;padding:6px 14px;border-radius:999px;background:rgba(255,255,255,.12);font-size:14px}
+.pill svg{width:16px;height:16px;color:var(--accent)}
+.hero h1{font-size:clamp(26px,4.6vw,46px)}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero .lead{margin-top:20px;max-width:52ch;font-size:18px;opacity:.88}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.machine{align-self:center;padding:24px;border:1px solid rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.06)}
+.machine small{font-size:13px;letter-spacing:.08em;text-transform:uppercase;opacity:.7}
+.machine strong{display:block;margin-top:4px;font:700 24px/1.2 var(--f-head)}
+.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0 0;padding:0;list-style:none;text-align:center}
+.chips li{padding:12px 6px;border-radius:12px;background:rgba(255,255,255,.1)}
+.chips b{display:block;font:700 15px/1.2 var(--f-head);color:var(--accent)}
+.chips span{font-size:12px;opacity:.78}
+.machine p{margin-top:18px;font-size:14px;opacity:.82}
+
+/* карточки */
+.grid{display:grid;gap:16px}
+.g3{grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{padding:24px;background:var(--card);border:1px solid var(--line);border-radius:16px;transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(15,39,71,.1);border-color:rgba(30,77,143,.4)}
+.ic{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:var(--soft);color:var(--primary)}
+.ic svg{width:22px;height:22px}
+.card h3{margin-top:16px;font-size:18px;font-weight:600}
+.card p{margin-top:8px;font-size:15px;color:var(--muted)}
+.perk .ic{background:transparent;color:var(--accent);padding:0;width:30px;height:30px}
+.perk .ic svg{width:30px;height:30px}
+
+/* цены */
+.prices{overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:16px}
+.prow{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:8px;align-items:center;padding:16px 22px}
+.prow+.prow{border-top:1px solid var(--line)}
+.prow b{font-weight:600}
+.prow .pr{font:700 17px/1.2 var(--f-head);color:var(--primary)}
+.prow .nt{font-size:14px;color:var(--muted)}
+.fine{margin-top:16px;font-size:14px;color:var(--muted)}
+
+/* шаги */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:0;padding:0;list-style:none}
+.steps li{padding:24px;background:var(--card);border:1px solid var(--line);border-radius:16px}
+.steps .n{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--primary);color:#fff;font:700 16px/1 var(--f-head)}
+.steps h3{margin-top:16px;font-size:17px;font-weight:600}
+.steps p{margin-top:6px;font-size:15px;color:var(--muted)}
+
+/* вопросы */
+.faq{display:grid;gap:12px;max-width:780px;margin-inline:auto}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px}
+summary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px;padding:12px 20px;font-weight:600;cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";flex:none;width:10px;height:10px;border-right:2px solid var(--primary);border-bottom:2px solid var(--primary);transform:rotate(45deg);transition:transform .3s ease;margin-right:4px}
+details[open] summary::after{transform:rotate(-135deg)}
+details p{padding:0 20px 18px;color:var(--muted)}
+
+/* контакты и форма */
+.cgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:start}
+.bigphone{font:700 clamp(24px,3.4vw,32px)/1.2 var(--f-head);color:var(--primary);text-decoration:none}
+.cgrid h3{font-size:17px;font-weight:600}
+.zones{margin:12px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+.zones li{display:flex;align-items:center;gap:8px}
+.zones svg{width:16px;height:16px;color:var(--accent);flex:none}
+.stack{display:grid;gap:24px}
+form{display:grid;gap:16px;padding:28px;background:var(--card);border:1px solid var(--line);border-radius:16px}
+form h3{font:700 20px/1.2 var(--f-head)}
+label{display:grid;gap:6px;font-size:14px;font-weight:600}
+input,textarea{width:100%;min-height:48px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:400 16px/1.3 var(--f-body)}
+textarea{min-height:96px;resize:vertical}
+input:focus,textarea:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(30,77,143,.2)}
+.err{min-height:0;font-size:13px;font-weight:500;color:var(--err)}
+.fnote{font-size:13px;color:var(--muted)}
+.fbtns{display:grid;gap:10px}
+.sent{display:none;font-size:14px;color:var(--ok);font-weight:500}
+.sent.on{display:block}
+
+footer{background:var(--navy);color:rgba(242,246,251,.82);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;padding-block:28px}
+
+.ficons{display:flex;gap:8px}
+.ficons a{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;transition:background .25s ease,transform .25s ease}
+.ficons a:hover{background:var(--accent);color:var(--accent-ink);transform:scale(1.08)}
+.ficons svg{width:20px;height:20px}
+/* нижняя панель на телефоне */
+.mbar{display:none}
+
+@media (max-width:860px){
+  nav,.hphone{display:none}
+  .hero-grid{grid-template-columns:minmax(0,1fr);padding-block:48px}
+  .cgrid{grid-template-columns:minmax(0,1fr);gap:32px}
+  .sec{padding-block:48px}
+  body{padding-bottom:76px}
+  .mbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:8px max(8px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px));background:rgba(248,250,252,.96);border-top:1px solid var(--line);backdrop-filter:blur(8px)}
+  .mbar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:52px;border-radius:10px;font-size:12px;font-weight:600;text-decoration:none}
+  .mbar svg{width:20px;height:20px}
+}
+@media (max-width:560px){
+  .cta .btn{width:100%}
+  .prow{grid-template-columns:1fr auto}
+  .prow .nt{grid-column:1/-1}
+  .hero .lead{font-size:17px}
+  .chips b{font-size:14px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6h12v11H2zM14 10h4l4 4v3h-8"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.4 1.8.7 2.7a2 2 0 01-.5 2.1L8.1 9.8a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.7.7a2 2 0 011.7 2z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 01-9 8.4 8.5 8.5 0 01-3.8-.9L3 21l2-5.2A8.4 8.4 0 1121 11.5z"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></symbol>
+    <symbol id="i-sofa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11V8a2 2 0 012-2h10a2 2 0 012 2v3"/><path d="M3 13a2 2 0 014 0v2h10v-2a2 2 0 014 0v5H3z"/><path d="M6 18v2M18 18v2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.9M16 3.1a4 4 0 010 7.8"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h6a3.5 3.5 0 000-7h-4a3.5 3.5 0 010-7h6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-rub" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M10 17V7h3.5a2.5 2.5 0 010 5H10M8 14.5h6"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 00-4 0v4M14 10V4a2 2 0 00-4 0v6M10 10.5V6a2 2 0 00-4 0v8"/><path d="M18 8a2 2 0 014 0v6a8 8 0 01-8 8h-2c-2.8 0-4.5-.9-5.9-2.4L3.4 16a2 2 0 013-2.8L8 15"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="Грузоперевозки Тихвин"><i><svg><use href="#i-truck"/></svg></i><span>Грузоперевозки Тихвин</span></a>
+    <nav aria-label="Разделы">
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="hphone" href="tel:+79522064425"><svg><use href="#i-phone"/></svg>8 952 206-44-25</a>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="pill"><svg><use href="#i-clock"/></svg>Ежедневно 8:00–22:00</p>
+      <h1>Перевезу вашу мебель и вещи <em>аккуратно и в срок</em> по Тихвину и СПб</h1>
+      <p class="lead">ГАЗель NEXT с кузовом 6 метров, с грузчиками или без. Переезды, мебель, стройматериалы. Цену называю сразу по телефону.</p>
+      <div class="cta">
+        <a class="btn b-call" href="tel:+79522064425"><svg><use href="#i-phone"/></svg>Позвонить</a>
+        <a class="btn b-wa" href="https://wa.me/79522064425?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BD%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%93%D0%90%D0%97%D0%B5%D0%BB%D0%B8" target="_blank" rel="noopener"><svg><use href="#i-chat"/></svg>Написать в WhatsApp</a>
+      </div>
+    </div>
+    <div class="machine">
+      <small>Машина</small>
+      <strong>ГАЗель NEXT</strong>
+      <ul class="chips">
+        <li><b>6 м</b><span>кузов</span></li>
+        <li><b>дизель</b><span>двигатель</span></li>
+        <li><b>120 л</b><span>бак</span></li>
+      </ul>
+      <p>Тихвин · СПб · Ленобласть · межгород</p>
+    </div>
+  </div>
+</div>
+
+<section id="services" class="sec">
+  <div class="wrap">
+    <h2>Услуги</h2>
+    <p class="sub">Что могу перевезти и чем помочь.</p>
+    <div class="body grid g3">
+      <article class="card"><span class="ic"><svg><use href="#i-truck"/></svg></span><h3>Квартирный переезд</h3><p>Перевезу вещи из квартиры, дома или с дачи. Помогу упаковать и разгрузить.</p></article>
+      <article class="card"><span class="ic"><svg><use href="#i-sofa"/></svg></span><h3>Мебель и техника</h3><p>Диваны, шкафы, холодильники, стиральные машины. Закрепляю ремнями, укрываю. Сборка и разборка мебели оплачиваются отдельно по договорённости.</p></article>
+      <article class="card"><span class="ic"><svg><use href="#i-users"/></svg></span><h3>Грузчики</h3><p>По запросу пришлю грузчиков: поднимут на этаж и соберут вещи в машину.</p></article>
+      <article class="card"><span class="ic"><svg><use href="#i-box"/></svg></span><h3>Стройматериалы и товары</h3><p>Доставка со строительных баз и для магазинов. Длинномеры до длины кузова. Можно регулярно.</p></article>
+      <article class="card"><span class="ic"><svg><use href="#i-box"/></svg></span><h3>Вывоз старой мебели и вещей</h3><p>Заберу ненужные диваны, шкафы и крупногабаритные вещи и отвезу по вашему адресу.</p></article>
+      <article class="card"><span class="ic"><svg><use href="#i-route"/></svg></span><h3>Межгород</h3><p>Санкт-Петербург, Ленобласть и другие города по договорённости.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="prices" class="sec alt">
+  <div class="wrap">
+    <h2>Цены</h2>
+    <p class="sub">Ориентир. Точная стоимость зависит от груза и маршрута, я называю её до выезда.</p>
+    <div class="body prices">
+      <div class="prow"><b>По Тихвину</b><span class="pr">от 900 ₽/час</span><span class="nt">минимум 2 часа</span></div>
+      <div class="prow"><b>Тихвин → Санкт-Петербург</b><span class="pr">от 5000 ₽</span><span class="nt">в одну сторону</span></div>
+      <div class="prow"><b>Межгород</b><span class="pr">75 ₽/км</span><span class="nt">по Ленобласти и дальше</span></div>
+      <div class="prow"><b>Грузчики</b><span class="pr">250 ₽ за 1 этаж</span><span class="nt">подъём или спуск</span></div>
+      <div class="prow"><b>Сборка и разборка мебели</b><span class="pr">отдельно</span><span class="nt">считается после обсуждения</span></div>
+    </div>
+    <p class="fine">Позвоните или напишите, и я назову точную цену за пару минут.</p>
+  </div>
+</section>
+
+<section id="why" class="sec">
+  <div class="wrap">
+    <h2>Почему выбирают</h2>
+    <div class="body grid g4">
+      <div class="card perk"><span class="ic"><svg><use href="#i-clock"/></svg></span><h3>Подача в день обращения</h3><p>Если машина свободна, приеду уже сегодня.</p></div>
+      <div class="card perk"><span class="ic"><svg><use href="#i-shield"/></svg></span><h3>Аккуратная перевозка</h3><p>Ремни, покрывала, бережная погрузка.</p></div>
+      <div class="card perk"><span class="ic"><svg><use href="#i-rub"/></svg></span><h3>Фиксированная цена</h3><p>Договорились: цена не меняется по дороге.</p></div>
+      <div class="card perk"><span class="ic"><svg><use href="#i-hand"/></svg></span><h3>Помощь с погрузкой</h3><p>Помогу сам или приеду с грузчиками.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="sec alt">
+  <div class="wrap">
+    <h2>Как я работаю</h2>
+    <ol class="body steps">
+      <li><span class="n">1</span><h3>Звонок</h3><p>Звоните или пишите в WhatsApp или Telegram.</p></li>
+      <li><span class="n">2</span><h3>Расчёт</h3><p>Уточню груз и маршрут, назову цену.</p></li>
+      <li><span class="n">3</span><h3>Подача машины</h3><p>Приеду в назначенное время.</p></li>
+      <li><span class="n">4</span><h3>Оплата</h3><p>После выполнения: наличными, переводом или по счёту.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- Сюда позже можно добавить разделы «Фото машины» и «Отзывы», когда появятся настоящие. -->
+
+<section id="faq" class="sec">
+  <div class="wrap">
+    <h2>Частые вопросы</h2>
+    <div class="body faq">
+      <details><summary>Сколько стоит перевозка?</summary><p>По Тихвину от 900 ₽/час, минимум 2 часа. До СПб от 5000 ₽. Сборка и разборка мебели оплачиваются отдельно и считаются после обсуждения. Точную цену назову после звонка: она зависит от груза, этажа и маршрута.</p></details>
+      <details><summary>Как быстро подаёте машину?</summary><p>Часто в день обращения, если машина свободна. Лучше позвонить заранее, особенно на выходные.</p></details>
+      <details><summary>Есть ли грузчики?</summary><p>Да, по запросу. Подъём или спуск: 250 ₽ за 1 этаж. Скажите при звонке, сколько нужно людей.</p></details>
+      <details><summary>Возите по межгороду?</summary><p>Да: Санкт-Петербург, Ленинградская область и другие города по договорённости, 75 ₽/км.</p></details>
+      <details><summary>Как можно оплатить?</summary><p>Наличными или переводом на карту. Для юрлиц возможна оплата по счёту. Я самозанятый, выдаю чек.</p></details>
+      <details><summary>Что поместится в машину?</summary><p>ГАЗель NEXT с кузовом 6 м. Обычно хватает на переезд 1–3-комнатной квартиры. Пришлите вес и размеры самых больших предметов, и я скажу сразу, поместятся ли они.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="contacts" class="sec alt">
+  <div class="wrap">
+    <h2>Контакты и заявка</h2>
+    <div class="body cgrid">
+      <div class="stack">
+        <div>
+          <a class="bigphone" href="tel:+79522064425">8 952 206-44-25</a>
+          <p class="fine" style="margin-top:4px">Телефон, WhatsApp, Telegram · ежедневно 8:00–22:00</p>
+        </div>
+        <div class="cta" style="margin-top:0">
+          <a class="btn b-call" href="tel:+79522064425"><svg><use href="#i-phone"/></svg>Позвонить</a>
+          <a class="btn b-wa" href="https://wa.me/79522064425?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BD%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%93%D0%90%D0%97%D0%B5%D0%BB%D0%B8" target="_blank" rel="noopener"><svg><use href="#i-chat"/></svg>WhatsApp</a>
+          <a class="btn b-tg" href="https://t.me/+79522064425" target="_blank" rel="noopener"><svg><use href="#i-send"/></svg>Telegram</a>
+        </div>
+        <div>
+          <h3>Где работаю</h3>
+          <ul class="zones">
+            <li><svg><use href="#i-pin"/></svg>Тихвин и Тихвинский район</li>
+            <li><svg><use href="#i-pin"/></svg>Санкт-Петербург</li>
+            <li><svg><use href="#i-pin"/></svg>Ленинградская область</li>
+            <li><svg><use href="#i-pin"/></svg>Другие города по договорённости</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Оплата</h3>
+          <p class="fine" style="margin-top:8px">Наличные, перевод. Для юрлиц по счёту (самозанятый).</p>
+        </div>
+      </div>
+
+      <form id="orderForm" novalidate>
+        <h3>Оставить заявку</h3>
+        <label for="o-name">Имя<input id="o-name" name="name" maxlength="60" autocomplete="name"><span class="err" id="e-name"></span></label>
+        <label for="o-phone">Телефон<input id="o-phone" name="phone" type="tel" inputmode="tel" maxlength="20" autocomplete="tel"><span class="err" id="e-phone"></span></label>
+        <label for="o-route">Откуда и куда<input id="o-route" name="route" maxlength="200" placeholder="Тихвин, ул. … → СПб, …"><span class="err" id="e-route"></span></label>
+        <label for="o-cargo">Что везти<textarea id="o-cargo" name="cargo" maxlength="500" placeholder="Диван, холодильник, 10 коробок…"></textarea><span class="err" id="e-cargo"></span></label>
+        <div class="fbtns">
+          <button class="btn b-wa" type="submit" id="sendWa"><svg><use href="#i-chat"/></svg>Отправить в WhatsApp</button>
+          <button class="btn b-ghost" type="button" id="sendTg"><svg><use href="#i-send"/></svg>Отправить в Telegram</button>
+        </div>
+        <p class="fnote">В WhatsApp заявка откроется готовым сообщением. В Telegram текст копируется, его нужно вставить в чат.</p>
+        <p class="sent" id="sentMsg" role="status">Сообщение подготовлено. Если мессенджер не открылся, позвоните: 8 952 206-44-25.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© Грузоперевозки Тихвин</span>
+    <span class="ficons">
+      <a href="tel:+79522064425" aria-label="Позвонить на 8 952 206-44-25" title="Позвонить"><svg><use href="#i-phone"/></svg></a>
+      <a href="https://wa.me/79522064425" target="_blank" rel="noopener" aria-label="Написать в WhatsApp" title="WhatsApp"><svg><use href="#i-chat"/></svg></a>
+      <a href="https://t.me/+79522064425" target="_blank" rel="noopener" aria-label="Написать в Telegram" title="Telegram"><svg><use href="#i-send"/></svg></a>
+    </span>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a href="tel:+79522064425" style="background:var(--accent);color:var(--accent-ink)"><svg><use href="#i-phone"/></svg>Звонок</a>
+  <a href="https://wa.me/79522064425?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%BD%D1%83%D0%B6%D0%BD%D0%B0%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%93%D0%90%D0%97%D0%B5%D0%BB%D0%B8" target="_blank" rel="noopener" style="background:var(--ok);color:#fff"><svg><use href="#i-chat"/></svg>WhatsApp</a>
+  <a href="https://t.me/+79522064425" target="_blank" rel="noopener" style="background:var(--primary);color:#fff"><svg><use href="#i-send"/></svg>Telegram</a>
+</div>
+
+<script>
+(function () {
+  var form = document.getElementById("orderForm");
+  function val(id) { return (document.getElementById(id).value || "").trim(); }
+  function setErr(k, msg) { document.getElementById("e-" + k).textContent = msg || ""; }
+
+  function collect() {
+    var ok = true, digits = val("o-phone").replace(/\D/g, "");
+    setErr("name", ""); setErr("phone", ""); setErr("route", ""); setErr("cargo", "");
+    if (val("o-name").length < 2) { setErr("name", "Укажите имя"); ok = false; }
+    if (digits.length < 10 || digits.length > 12) { setErr("phone", "Укажите телефон, например 8 900 123-45-67"); ok = false; }
+    if (val("o-route").length < 3) { setErr("route", "Откуда и куда везём?"); ok = false; }
+    if (val("o-cargo").length < 2) { setErr("cargo", "Коротко опишите груз"); ok = false; }
+    if (!ok) return null;
+    return "Заявка на перевозку (сайт)\nИмя: " + val("o-name") + "\nТелефон: " + val("o-phone") +
+           "\nОткуда и куда: " + val("o-route") + "\nГруз: " + val("o-cargo");
+  }
+  function done() { document.getElementById("sentMsg").classList.add("on"); }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var t = collect(); if (!t) return;
+    window.open("https://wa.me/79522064425?text=" + encodeURIComponent(t), "_blank", "noopener");
+    done();
+  });
+  document.getElementById("sendTg").addEventListener("click", function () {
+    var t = collect(); if (!t) return;
+    var m = document.getElementById("sentMsg");
+    function opened(copied) {
+      window.open("https://t.me/+79522064425", "_blank", "noopener");
+      m.textContent = copied ? "Текст заявки скопирован. В открывшемся Telegram вставьте его в сообщение и отправьте." : "Откройте Telegram и напишите заявку вручную. Или позвоните: 8 952 206-44-25.";
+      m.classList.add("on");
+    }
+    try { navigator.clipboard.writeText(t).then(function () { opened(true); }, function () { opened(false); }); }
+    catch (err) { opened(false); }
+  });
+})();
+</script>
+</body>
+</html>
